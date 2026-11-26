@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game-card {
+    background-color: #ffffff;
+    width: 350px;
+    padding: 40px 25px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.game-card h3 {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 18px;
+}
+
+.chance-text {
+    font-size: 13px;
+    color: #555555;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.name-input {
+    width: 85%;
+    padding: 10px 15px;
+    border: 1px solid #eeeeee;
+    border-radius: 20px;
+    outline: none;
+    font-size: 12px;
+    color: #555555;
+    margin-bottom: 15px;
+}
+
+.name-input::placeholder {
+    color: #cccccc;
+}
+
+.start-btn {
+    background-color: #7030a0;
+    color: #ffffff;
+    border: none;
+    padding: 7px 25px;
+    border-radius: 15px;
+    font-size: 11px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.start-btn:hover {
+    background-color: #5a2582;
+}
+
+.error-msg {
+    display: none;
+    background-color: #c92a2a;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 7px;
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+.result-msg {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #7030a0;
+}

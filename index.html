@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="main-box">
+        <div class="game-card" id="box1">
+            <h3>Wanna Play game?</h3>
+            <input type="text" placeholder="What is your name" class="name-input" id="name1Input">
+            <br>
+            <button class="start-btn" id="startBtn">Start Game</button>
+            <div class="error-msg" id="error1">Name Is Missing</div>
+        </div>
+
+        <div class="game-card" id="box2" style="display: none;">
+            <h3 id="player1Title">Player - 1</h3>
+            <input type="password" placeholder="Give a number" class="name-input" id="num1Input">
+            <br>
+            <button class="start-btn" id="playBtn">Let's Play</button>
+            <div class="error-msg" id="error2">Please give a number</div>
+        </div>
+
+        <div class="game-card" id="box3" style="display: none;">
+            <h3>Player - 2 Name</h3>
+            <input type="text" placeholder="What is your name" class="name-input" id="name2Input">
+            <br>
+            <button class="start-btn" id="startBtn2">Start Game</button>
+            <div class="error-msg" id="error3">Name Is Missing</div>
+        </div>
+
+        <div class="game-card" id="box4" style="display: none;">
+            <h3 id="player2Title">Player - 2</h3>
+            <p class="chance-text">Chance: <span id="chanceCount">5</span></p>
+            <input type="number" placeholder="Guess the number" class="name-input" id="guessInput">
+            <br>
+            <button class="start-btn" id="guessBtn">Guess</button>
+            <div class="error-msg" id="error4">Please enter a number</div>
+            <h4 id="resultText" class="result-msg"></h4>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
